@@ -1,30 +1,30 @@
 'use strict'
 
-let llueve = window.confirm('Esta lloviendo?');
-if (llueve == true) {
-   // El codigo en bloque debajo de if solo se ejecutara si la expresion resulta verdadera
-   alert('Llevo paraguas');
- } else {
-   // El codigo en bloque debajo de else es opcional, se ejecutara si la expresion resulta false
-   alert('Lo dejo en casa');
- }
+//let llueve = window.confirm('Esta lloviendo?');
+//if (llueve == true) {
+// El codigo en bloque debajo de if solo se ejecutara si la expresion resulta verdadera
+//   alert('Llevo paraguas');
+// } else {
+// El codigo en bloque debajo de else es opcional, se ejecutara si la expresion resulta false
+//   alert('Lo dejo en casa');
+// }
 
 // Me piden un script para preguntar al usuario su edad y si es mayor que 5
 // tiene que pagar 4000 y si no entra gratis.
-// let edad = prompt('Cual es tu edad');
-// if (Number(edad) < 5) {
-//   console.log('Entra gratis')
+//let edad = prompt('Cual es tu edad');
+//if (Number(edad) < 5) {
+//  console.log('Entra gratis')
 // } else {
 //   console.log('Paga 4000')
-// }
+//}
 
 // Practica
-let clima = 'Caluroso';
-if (clima === 'Frio') {
-	console.log('Me llevo campera');
-} else {
- 	console.log('Salgo de remera');	
-}
+//let clima = 'Caluroso';
+//if (clima === 'Frio') {
+//	console.log('Me llevo campera');
+//} else {
+// 	console.log('Salgo de remera');	
+//}
 
 let variableBool = true;
 console.log(variableBool) // false
