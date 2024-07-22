@@ -60,6 +60,7 @@ if (edad < 5) { // Si es menor de 5
   Informa al usuario el resultado.
 */
 let edadBar = prompt('Cual es tu edad');
+// edadBar = Number(edadBar);
 // edadBar = 'Casa'; 
 
   if (edadBar > 21) {
