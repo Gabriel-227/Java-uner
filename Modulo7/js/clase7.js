@@ -33,3 +33,14 @@ console.log(nuevoListado);
 // Find va a a recibir como parametro una funcion flecha la cual va a retornar el primer valor que cumpla
 // esa condicion.
 console.log(nuevoListado.find((elemento) => elemento == 'Papas'));
+
+// IndexOf me va a devolver el indice del primer elemento que sea igual al que se paso por parametros
+console.log(nuevoListado.indexOf('Papas')); //deberia ser un numero positivo o 0
+console.log(nuevoListado.indexOf('Auto')); // Si no encuentra el elemento devuelve -1
+
+//LastINdexOf me va a devolver el index del primer elemento que sea igual al que se paso por parametro 
+// pero buscando desde el final del array inicio
+nuevoListado.push('Papas');
+console.log(nuevoListado);
+console.log(nuevoListado.indexOf('Papas')); //Esto me devuelve la primer ocurrencia desde el inicio
+console.log(nuevoListado.lastIndexOf('Papas'));// Esto me devuelve la primer ocurrencia desde el final
