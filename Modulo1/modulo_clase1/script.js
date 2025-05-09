@@ -18,3 +18,6 @@ console.log('El valor de la variable numero es: ', numero);
   EN primer instancia cree una variable por que me pidio el profesor
   y despues le di salido por la consola por que tambien me pidio el profesor
 */
+
+alert('Hola desde un script importado a una pagina HTML');
+// alert('Hola desde un script importado a una pagina HTML');
