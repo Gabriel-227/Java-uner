@@ -30,8 +30,7 @@ console.log('El resultado de la operacion es:', dividendo / divisor);
 
 let numero1 = prompt('Ingresa el primer numero de la suma'); // 45
 let numero2 = prompt('Ingresa el segundo numero de la suma'); // 55
-console.log('El resultado de la operacion es:', Number(numero1) + Number(numero2)); //4555
-
+console.log('El resultado de la operacion es:', Number(numero1) + Number(numero2)); //100
 
 let miEdad = 45;
 let añoActual = '2024';
