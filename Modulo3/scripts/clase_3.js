@@ -47,7 +47,7 @@ console.log('Numero hexadecimal',hexadecimal)
 
 // Si intento dividor algo por 0 voy a obtener el valor numerico especial Infinity
 let noSePuede = 1/0;
-console.log('Que paso si divido algo por 0?', noSePuede);
+console.log('Que paso si divido algo por 0?', noSePuede);FileSystemEntryde
 
 // Si intento realizar una operacion entre un cadena y un numero, voy a
 // obtener el valor numerico especial NaN (Not a Number)
