@@ -1,7 +1,7 @@
 'use strict'
 
 let edadPermitida = 18;
-let edadPersona = 15; //=prompt('Ingresa tu edad.');
+// let edadPersona = 15; //=prompt('Ingresa tu edad.');
 // let decision =Number(edadPersona) >= edadPermitida ? 'Puede ingresar' : 'No puede ingresar');
 console.log(Number(edadPersona) >= edadPermitida ? 'Puede ingresar' : 'No puede ingresar');
 
@@ -64,7 +64,7 @@ switch (nota) {
     break;
   case 9:
     abreviatura = 'MB';
-    break;  
+    break;
   default:
     abreviatura = 'ERROR FATAL';
 }
