@@ -130,5 +130,7 @@ console.log(listado.length);
 
 console.log(listado); // Array original
 
+
+listado.splice(1, 2) // Elimina 2 elementos a partir de la posicion 1
 console.log(listado.splice(1, 2)); // Segunda instancia o array diferente con los elemento borrados del Array original
 console.log(listado); // Array original menos los elementos
