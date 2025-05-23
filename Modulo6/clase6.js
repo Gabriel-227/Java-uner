@@ -81,6 +81,7 @@ if (abreviatura == 'NEN' || abreviatura == 'NAO') {
 
 console.log('La abreviacion que debe poner en la libreta es: ', abreviatura);
 console.log('Aprobó el alumno?: ', aprobo);
+// console.log(abreviatura == 'NEN' || abreviatura == 'NAO' ? 'No aprobo, desde ternario' : 'Aprobo desde ternario');
 
 
 // Arrays
@@ -106,22 +107,23 @@ listado[2] = 'Salsa de tomate'; // Cambio Tomate por salsa de tomate
 // console.log(listado2);
 
 // const listadoNumero = [10, 11 , 12];
-// const listadoNumero2 = new Array(10); // Comportamiento no deseable
+// const listadoNumero2 = new Array(10); // Comportamiento no deseable, generar un array de 10 elementos vacios
 
 // console.log(listadoNumero);
 // console.log(listadoNumero2);
 
-console.log('Que hay en el piso 15', listado[15]);
+console.log('Que hay en el piso 15', listado[15]); // undefined 
 
 // Que pasa si en vez de sobreescribir quiero agregar un elemento
-// listado[8] = 'Mandarina';
+// listado[4] = 'Mandarina';
 // console.log(listado);
 
 
 let indicador = 1;
 
-listado.push('Mandarina');
-console.log(listado[indicador + 2]);
+listado.push('Mandarina'); // metodo Push agrega un elemento al final del array
+console.log(listado[indicador + 2]); // resuelve la operacion y me devuelve el elemento en la posicion 3
+listado.unshift('Aceite'); // metodo Unshift agrega un elemento al principio del array
 
 // Propiedad length -> me va a devolver el tamaño del array o vector
 console.log(listado.length);
