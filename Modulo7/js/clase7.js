@@ -75,7 +75,54 @@ let auto = {
     motor: '1.6',
     color: 'Rojo', 
     asegurado: true,
-    
 }
 
 console.log(auto);
+console.log('Mi auto es de color', auto['color'])// notacion de corchetes no usar
+console.log('El modelo de mi auto es', auto.modelo) // notacion de punto usar
+
+auto.modelo = '1998'; // Actualizo el valor accediendo a la 
+// propiedad
+console.log('El modelo de mi auto es', auto)
+
+auto.cantidadNeumaticos = 4; // Agrego una nueva propiedad al objeto
+console.log('El modelo de mi auto es', auto)
+
+// Ejemplo de practica de array y objetos
+/* Crear un objeto llamado persona con tus datos (una persona tiene nombre, apellido y documento) que a su vez contenga un array llamado amigos (un amigo es una persona). Crea tres variables personas, cada una conteniendo un objeto, que este compuesto por tres amigos tuyos. agregar cada una de estas variables al array amigos
+Saca el objeto por consola*/
+
+let yo = {
+    nombre: 'Gabriel',
+    apellido: 'Nuñez',
+    documento: '12345678',
+    amigos: []
+}
+
+let amigo1 = {
+    nombre: 'Luciano',
+    apellido: 'Cecarocci',
+    documento: '12345678',
+    amigos: []
+}
+
+let amigo2 = {
+    nombre: 'Augusto',
+    apellido: 'Rodriguez',
+    documento: '12345678',
+    amigos: []
+}
+
+let amigo3 = {
+    nombre: 'Cristian',
+    apellido: 'Tesari',
+    documento: '12345678',
+    amigos: []
+}
+
+//yo.amigo.push(amigo1);
+//yo.amigo.push(amigo2);
+//yo.amigo.push(amigo3);
+yo.amigos.push(amigo1, amigo2, amigo3); // Agrego los amigos al array de amigos
+
+console.log(yo);
