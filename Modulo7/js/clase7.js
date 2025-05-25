@@ -126,3 +126,34 @@ let amigo3 = {
 yo.amigos.push(amigo1, amigo2, amigo3); // Agrego los amigos al array de amigos
 
 console.log(yo);
+
+// Bucles 
+// While - Mientras
+let iterador = 0;
+while (iterador < 10) {
+    console.log(iterador ++);
+}
+console.log('Continua el flujo del programa');
+//Ejemplo 
+const amigos = ['Juan', 'Lucas', 'Esteban', 'Deborah', 'Sofia'];
+let esAmigo = false;//Variable de control booleana
+iterador = 0;// Variable de control numerica, que lleva la cantidad de vueltas
+let nombreIngresado = 'Lucas'; //El nombre a buscar
+
+while (iterador < amigos.length && !esAmigo) {
+    if (amigos[iterador] == nombreIngresado) {
+        esAmigo = true;
+    }
+    iterador++;
+}   
+esAmigo ? console.log('Es amigo') : console.log('No es amigo');
+
+
+// Do While - Hacer mientras el codigo se ejecute al menos una vez
+let correcta = false;// Variable de control booleana
+do {
+    let contraseña1 = prompt('Ingrese la contraseña');
+    let contraseña2 = prompt('Ingrese nuevamente la contraseña');   
+    contraseña1 === contraseña2 ? correcta = true : correcta = false;
+    correcta ? alert('Contraseña almacenada correctamente'): alert('Las contraseñas no coinciden, intente nuevamente');
+}while (!correcta);
