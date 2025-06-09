@@ -134,6 +134,7 @@ while (iterador < 10) {
     console.log(iterador ++);
 }
 console.log('Continua el flujo del programa');
+
 //Ejemplo 
 const amigos = ['Juan', 'Lucas', 'Esteban', 'Deborah', 'Sofia'];
 let esAmigo = false;//Variable de control booleana
@@ -150,6 +151,7 @@ esAmigo ? console.log('Es amigo') : console.log('No es amigo');
 
 
 // Do While - Hacer mientras el codigo se ejecute al menos una vez
+
 let correcta = false;// Variable de control booleana
 do {
     let contraseña1 = prompt('Ingrese la contraseña');
