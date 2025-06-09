@@ -6,6 +6,7 @@
 // 0 1 1 2 3 5 8 13 21 ....
 
 const fibonacci = [];
+// let cantidadSucesion = Number(prompt('Ingrese la cantidad de numeros de la sucesion Fibonacci que desea ver:'));
 let cantidadSucesion = 25;
 while (fibonacci.length < cantidadSucesion && cantidadSucesion > 3) {
   if (fibonacci.length === 0) {
